@@ -3024,5 +3024,7 @@ extern const u8 gText_Cancel3[];
 //tx_gameplay_engine
 extern const u8 gText_Nickname[];
 extern const u8 gText_ThrowInPremierBalls[];
+extern const u8 gText_SoldOut[];
+extern const u8 gText_SoldOut2[];
 
 #endif // GUARD_STRINGS_H
