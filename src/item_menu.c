@@ -2068,7 +2068,11 @@ static void Task_ItemContext_Sell(u8 taskId)
 {
     s16* data = gTasks[taskId].data;
 
+    #ifdef TX_GPE_REUSABLE_TMS
+    if ((ItemId_GetPrice(gSpecialVar_ItemId) == 0) || gBagPosition.pocket == TMHM_POCKET)
+    #else
     if (ItemId_GetPrice(gSpecialVar_ItemId) == 0)
+    #endif
     {
         CopyItemName(gSpecialVar_ItemId, gStringVar2);
         StringExpandPlaceholders(gStringVar4, gText_CantBuyKeyItem);
