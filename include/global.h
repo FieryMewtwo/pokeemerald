@@ -1023,6 +1023,7 @@ struct MapPosition
 #define TX_GPE_REUSABLE_TMS
 #define TX_GPE_PARTY_MENU_NICKNAME
 #define TX_GPE_FASTER_SURFING
+#define TX_GPE_BERRIES_STAY
 
 
 #endif // GUARD_GLOBAL_H
