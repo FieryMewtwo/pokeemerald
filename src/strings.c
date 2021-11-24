@@ -1825,3 +1825,4 @@ const u8 gText_Nickname[] = _("NICKNAME");
 const u8 gText_ThrowInPremierBalls[] = _("I'll throw in some Premier Balls, too.{PAUSE_UNTIL_PRESS}");
 const u8 gText_SoldOut[] = _("I'm sorry, but that item is sold out.\p");
 const u8 gText_SoldOut2[] = _("SOLD OUT");
+const u8 gText_AshQty[] = _("Ash amount:\n{STR_VAR_1}{PAUSE_UNTIL_PRESS}");
