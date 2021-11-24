@@ -1018,4 +1018,8 @@ struct MapPosition
     s8 height;
 };
 
+//tx_gameplay_engine
+#define TX_GPE_REUSABLE_TMS
+
+
 #endif // GUARD_GLOBAL_H
