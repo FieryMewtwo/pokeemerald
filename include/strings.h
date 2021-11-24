@@ -3021,4 +3021,7 @@ extern const u8 gText_PkmnForSwap[];
 extern const u8 gText_SamePkmnInPartyAlready[];
 extern const u8 gText_Cancel3[];
 
+//tx_gameplay_engine
+extern const u8 gText_Nickname[];
+
 #endif // GUARD_STRINGS_H

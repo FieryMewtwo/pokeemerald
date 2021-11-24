@@ -688,6 +688,7 @@ enum
     MENU_MAIL,
     MENU_TAKE_MAIL,
     MENU_READ,
+    MENU_NICKNAME,
     MENU_CANCEL2,
     MENU_SHIFT,
     MENU_SEND_OUT,
@@ -737,6 +738,9 @@ struct
     [MENU_MAIL] = {gText_Mail, CursorCb_Mail},
     [MENU_TAKE_MAIL] = {gText_Take2, CursorCb_TakeMail},
     [MENU_READ] = {gText_Read2, CursorCb_Read},
+    #ifdef TX_GPE_PARTY_MENU_NICKNAME
+    [MENU_NICKNAME] = {gText_Nickname, CursorCb_Nickname},
+    #endif
     [MENU_CANCEL2] = {gText_Cancel2, CursorCb_Cancel2},
     [MENU_SHIFT] = {gText_Shift, CursorCb_SendMon},
     [MENU_SEND_OUT] = {gText_SendOut, CursorCb_SendMon},
